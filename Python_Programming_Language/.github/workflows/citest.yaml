@@ -1,0 +1,32 @@
+name: Git Actions Demo
+on: [push]
+jobs:
+ Explore-GitHub-Actions:
+   runs-on: macos-latest
+   steps:
+     - uses: actions/checkout@v2
+     - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
+     - run: python Task_1.py
+     - run: python Task_2.py
+     - run: python Task_3.py
+     - run: python Task_4.py
+     - run: python Task_5.py
+     - run: python Task_6.py
+     - run: python Task_7.py
+     - run: python Task_8.py
+     - run: python Task_9.py
+     - run: python Task_10.py
+     - run: python Task_11.py
+     - run: python Task_12.py
+     - run: python Task_13.py
+     - run: python Task_14.py
+     - run: python Task_15.py
+     - run: python Task_16.py
+     - run: python Task_17.py
+     - run: python Task_18.py
+     - run: python Task_19.py
+     - run: python Task_20.py
+     - run: python Task_21.py
+     - run: python Task_22.py
+     - run: python Task_23.py
+     - run: python Task_24.py
