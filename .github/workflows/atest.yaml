@@ -1,0 +1,23 @@
+name: Git Actions Demo
+on: [push]
+jobs:
+ Explore-GitHub-Actions:
+   runs-on: macos-latest
+   steps:
+     - uses: actions/checkout@v2
+     - name: python tasks
+       working-directory: ./Python_task
+       run: |
+          echo "The job was automatically triggered by a ${{ github.event_name }} event"
+          python Task_1.py
+          python task_2.py
+          python Task_3.py
+          python task_4.py
+          python Task_5.py
+          python task_6.py
+          python Task_7.py
+          python task_8.py
+          python Task_9.py
+          python task_10.py
+          python Task_11.py
+          python task_12.py
