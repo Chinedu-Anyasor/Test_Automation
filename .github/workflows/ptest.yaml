@@ -12,3 +12,10 @@ jobs:
           python question_1.py
           python question_2.py
           python question_3.py
+          python question_4.py
+          python question_5.py
+          python question_6.py
+          python question_7.py
+          python question_8.py
+          python question_9.py
+          python question_10.py
