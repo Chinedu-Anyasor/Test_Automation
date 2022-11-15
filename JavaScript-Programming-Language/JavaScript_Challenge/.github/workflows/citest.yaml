@@ -1,0 +1,10 @@
+
+name: Github Actions js
+on: [ push ]
+jobs:
+  Tests:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: echo " The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: javaScript js_code_challenge.js
