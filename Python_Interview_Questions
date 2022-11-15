@@ -1,1 +1,71 @@
+Question 1: What are the main features of Python?
+
+ Object-Oriented Language: One of the critical features of Python is Object-Oriented programming. Python supports object-oriented language and concepts of classes, object encapsulation, etc. 
+GUI Programming Support: Graphical User interfaces can be made using a module such as PyQt5, PyQt4, wxPython, or Tk in python. PyQt5 is the most popular option for creating graphical apps with Python.
+High-Level Language: Python is a high-level language. When we write programs in Python, we do not need to remember the system architecture or manage the memory.
+ 
+ Extensible feature: Python is an Extensible language meaning that some python code can be written into C or C++ language and we can compile that code in C/C++ language.
+Python is an Integrated language: Python is also an Integrated language because we can easily integrate Python with other languages like C, C++, etc.
+Interpreted Language: Python is an Interpreted Language because Python code is executed line by line at a time. like other languages C, C++, Java, etc. there is no need to compile Python code which makes it easier to debug our code. The source code of Python is converted into an immediate form called bytecode.
+Large Standard Library: Python has a large standard library that provides a rich set of modules and functions so you do not have to write your own code for every single thing. There are many libraries present in Python such as regular expressions, unit-testing, web browsers, etc.
+Allocating Memory Dynamically: In Python, the variable data type does not need to be specified. The memory is automatically allocated to a variable at runtime when it is given a value.
+
+
+Question 2 What is the difference between a list and a dictionary?
+
+List: The list is a sequence data type which is used to store the collection of data. They are just like dynamically sized arrays, declared in other languages, In simple language, a list is a collection of things, enclosed in [ ] and separated by commas; while a Dictionary in Python is a collection of keys values, used to store data values like a map, which, unlike other data types which hold only a single value as an element. It is more efficient to use a dictionary for the lookup of elements because it takes less time to traverse in the dictionary than a list.
+ 
+Difference between LIST & DICTIONARY
+List: List is a collection of index value pairs as that of an array in c++.
+Dictionary: Dictionary is a hashed structure of key and value pairs.
+List: The list is created by placing elements in [ ] separated by commas “, “
+Dictionary: Dictionary is created by placing elements in { } as “key”:” value”, each key-value pair is separated by commas “, “.
+List: The indices of the list are integers starting from 0.
+Dctionary: The keys of a dictionary can be of any data type.
+List: The elements are accessed via indices.
+Dictionary: The elements are accessed via key-values.
+List: The order of the elements entered is maintained.
+Dictionary: There is no guarantee for maintaining order.
+
+ 
+Question 3: In your word, explain the keyword pass
+Functions or Class definitions should not be empty but when these need to be created without content, the Pass statement only works as a dummy statement that is used as a placeholder for empty functions or codes inserted to avoid errors.
+ 
+ 
+Question 4: What is an iterator in Python?
+Iterators are objects that allow us to compute and fetch one value at a time from a sequence. They help us save memory and computation by not calculating the results for the entire sequence, but only for the next one. Iterator in Python is an object that is used to iterate over iterable objects like lists, tuples, dicts, and sets. 
+ 
+ 
+Question 5: What is unit testing?
+Unit Testing is the first level of software testing where the smallest testable parts of the software are tested. This is used to validate that each unit of the software performs as designed.
+ 
+ 
+Question 6: Of the available unit test framework in Python, which is your favourite and why?
+There are really no favourite frameworks, the use of the framework depends on the action to be performed.  Unittest is best suited for object-oriented programming/ test suites while Pytest is preferred for API/functional testing.
+ 
+
+Question 7: Name the types of arguments in Python
+ 
+Required Arguments
+Default Arguments
+Keyword Arguments
+Arbitrary Arguments
+Arbitrary-Keyword Arguments
+ 
+ 
+Question 8: What are functions (Explain)?
+Python Functions is a block of statements that perform a specific task. Functions help break our program into smaller and modular chunks. As our program grows larger and larger, functions make it more organized and manageable
+
+
+Question 9: How do you create a class in Python?
+Classes are user- types that contain attributes and methods. Individual objects are created from a class that is, with classes multiple objects can be instantiated. It is like a blueprint that encompasses the other building blocks of code.
+To create a class, the keyword class is defined and within the class, the attributes and methods are created. 
+ 
+ 
+Question 10: Explain what polymorphism and Inheritance are in Python OOP
+Inheritance enables us to define a class that takes all the functionality from a parent class or another class and allows us to add more. It allows a class to derive attributes and methods or behaviour from another class. This can help us to avoid rewriting common functionalities across multiple classes.
+Polymorphism is the functionality in OOP that allows many class methods to perform a task (function or logic).
+
+ 
+
 
