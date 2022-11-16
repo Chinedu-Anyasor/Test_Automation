@@ -1,5 +1,6 @@
-
-# List stores multiple items ina single variable. List items are created in a sequence bracket. Python list is iterable.
+"""
+List stores multiple items ina single variable. List items are created in a sequence bracket. Python list is iterable.
+"""
 
 languages = ["python", "java", "C#"]
 

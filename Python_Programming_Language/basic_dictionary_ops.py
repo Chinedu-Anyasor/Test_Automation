@@ -1,6 +1,7 @@
 
-# A dictionary is a collection of key-value pair elements. They are created ina curly bracket.
-
+"""
+A dictionary is a collection of key-value pair elements. They are created ina curly bracket.
+"""
 animals = {
     "bird": "Parrot",
     "mammal": "Cow",

@@ -1,6 +1,9 @@
 
-# Recursion is a feature of python that allows a fxn to call itself. Recursion can be used in place of a traditional
-# for-loop or while-loop, but a performance gain is not guaranteed.
+"""
+Recursion is a feature of python that allows a fxn to call itself. Recursion can be used in place of a traditional
+ for-loop or while-loop, but a performance gain is not guaranteed.
+"""
+
 
 print("Compare between while loop and Recursion\n")
 
